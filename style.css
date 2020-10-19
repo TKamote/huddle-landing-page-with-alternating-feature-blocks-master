@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* From Style file
+### Primary
+- Pink: hsl(322, 100%, 66%)
+### Neutral
+- Very Pale Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%)
+### Body Copy
+- Font size: 18px
+### Headings
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
+### Body, Call-to-actions
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700
+55%)
+*/
+:root {
+    --primary-pink:hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    /* Call-to-actions */
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1440px;
+    background-color: aqua;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.item1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.logo1 {
+    width: 80%;
+}
+button {
+    
+}
+.item2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item2-1 {
+    width: 50vw;
+}
+.item2-2 {
+    width: 50vw;
+}
+.item2-2 img {
+    width: 100%;
+}
+.item3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item3-1 {
+    width: 50vw;
+}
+.item3-2 {
+    width: 50vw;
+}
+.item3-2 img {
+    width: 100%;
+}
+.item4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item4-1 {
+    width: 50vw;
+}
+.item4-2 {
+    width: 50vw;
+}
+.item4-1 img {
+    width: 100%;
+}
+.item5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item5-1 {
+    width: 50vw;
+}
+.item5-2 {
+    width: 50vw;
+}
+.item5-2 img {
+    width: 100%;
+}
+.item6 {
+    display: grid;  
+    grid-template-columns: 1fr;
+}
+.item7 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.item8 {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item9 {
+    display: grid;  
+    grid-template-columns: 1fr;
+}
